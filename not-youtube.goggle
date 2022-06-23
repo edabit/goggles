@@ -1,0 +1,15 @@
+! name: Not YouTube
+! description: Searches all popular video sites except YouTube.
+! public: true
+! author: edabit.com
+! homepage: https://edabit.com
+! avatar: #000000
+
+$boost=4,site=vimeo.com
+$boost=4,site=d.tube
+$boost=4,site=bitchute.com
+$boost=4,site=twitch.tv
+$boost=4,site=vidlii.com
+$boost=4,site=dailymotion.com
+
+$discard
