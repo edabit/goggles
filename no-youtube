@@ -1,0 +1,8 @@
+! name: No YouTube
+! description: Rerank results to remove YouTube videos.
+! public: true
+! author: edabit.com
+! homepage: https://edabit.com
+! avatar: #000000
+
+$discard,site=youtube.com
