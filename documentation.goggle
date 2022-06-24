@@ -1,0 +1,24 @@
+! name: Documentation
+! description: Documentation for programmers.
+! public: true
+! author: edabit.com
+! homepage: https://edabit.com
+! avatar: #2DB84B
+
+$discard
+$boost=4,site=phpdoc.org
+$boost=4,site=developer.mozilla.org
+$boost=4,site=developer.apple.com
+$boost=4,site=devdocs.io
+$boost=3,site=ruby-doc.org
+$boost=3,site=docs.oracle.com
+$boost=3,site=docs.microsoft.com
+$boost=2,site=readthedocs.io
+$boost=2,site=programiz.com
+$boost=2,site=php.net
+$boost=2,site=npmjs.com
+$boost=2,site=github.com
+$boost=2,site=geeksforgeeks.org
+$boost=2,site=docs.python.org
+$boost=2,site=cplusplus.com
+$boost=1,site=w3schools.com
