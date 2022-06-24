@@ -134,8 +134,8 @@ $boost=3,site=wideskills.com
 $boost=1,site=freecodecamp.org
 $boost=1,site=github.com
 $boost=1,site=sitepoint.com
-$boost=3,site=npmjs.com
-$boost=4,site=discuss.codecademy.com
+$boost=1,site=npmjs.com
+$boost=1,site=discuss.codecademy.com
 
 
 ! ######################################
