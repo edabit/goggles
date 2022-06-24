@@ -6,31 +6,28 @@
 ! avatar: #2DB84B
 
 ! Based on Edabit's most commonly submitted resources.
-! We're experimenting with Goggles and will be fine tuning this.
+! We're experimenting with Goggles and will be fine tuning this as we learn more.
 
 
 ! ######################################
 ! BOOST LVL 4
 ! ######################################
-$boost=4,site=beginnersbook.com
 $boost=4,site=codeburst.io
 $boost=4,site=dev.to
 $boost=4,site=devdocs.io
 $boost=4,site=developer.mozilla.org
-$boost=4,site=discuss.codecademy.com
-$boost=4,site=favtutor.com
 $boost=4,site=flaviocopes.com
 $boost=4,site=readthedocs.io
-$boost=4,site=realpython.com
 /tutorials/$boost=4,site=digitalocean.com
 
 
 ! ######################################
 ! BOOST LVL 3
 ! ######################################
-$boost=3,site=codementor.io
 $boost=3,site=allmathtricks.com
+$boost=3,site=beginnersbook.com
 $boost=3,site=byjus.com
+$boost=3,site=codementor.io
 $boost=3,site=codewithchris.com
 $boost=3,site=convertdatatypes.com
 $boost=3,site=cplusplus.com
@@ -64,7 +61,6 @@ $boost=3,site=medium.com
 $boost=3,site=mkaz.blog
 $boost=3,site=msdn.microsoft.com
 $boost=3,site=mygreatlearning.com
-$boost=3,site=npmjs.com
 $boost=3,site=perlmonks.org
 $boost=3,site=php.net
 $boost=3,site=python-guide.org
@@ -72,6 +68,7 @@ $boost=3,site=python.org
 $boost=3,site=rapidtables.com
 $boost=3,site=reactjs.org
 $boost=3,site=reactnative.dev
+$boost=3,site=realpython.com
 $boost=3,site=rexegg.com
 $boost=3,site=ruby-doc.org
 $boost=3,site=ryanstutorials.net
@@ -85,9 +82,13 @@ $boost=3,site=towardsdatascience.com
 $boost=3,site=tutorial.techaltum.com
 $boost=3,site=unitconverters.net
 $boost=3,site=varsitytutors.com
-$boost=3,site=w3resource.com
 $boost=3,site=wideskills.com
 /questions/$boost=3,site=digitalocean.com
+
+
+! ######################################
+! BOOST LVL 2
+! ######################################
 /r/Algorithms/$boost=2,site=reddit.com
 /r/AskProgramming/$boost=2,site=reddit.com
 /r/Coding/$boost=2,site=reddit.com
@@ -131,8 +132,10 @@ $boost=3,site=wideskills.com
 ! BOOST LVL 1
 ! ######################################
 $boost=1,site=freecodecamp.org
-$boost=1,site=sitepoint.com
 $boost=1,site=github.com
+$boost=1,site=sitepoint.com
+$boost=3,site=npmjs.com
+$boost=4,site=discuss.codecademy.com
 
 
 ! ######################################
