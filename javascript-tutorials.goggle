@@ -29,9 +29,27 @@ $boost=1,site=jsforcats.com
 
 ! BOOST RESULTS THAT CONTAIN JAVASCRIPT IN URL
 ! ###################################
-*js*$boost=2,inurl
-*javascript*$boost=2,inurl
-/javascript/$boost=2
+*js*$boost=1,inurl
+*javascript*$boost=1,inurl
+/javascript/$boost=1
+
+
+! DISCARD SPECIFIC SITES
+! ###################################
+$discard,site=csharpstar.com
+$discard,site=docs.microsoft.com
+$discard,site=docs.oracle.com
+$discard,site=javabeginnerstutorial.com
+$discard,site=javaguides.net
+$discard,site=javatpoint.com
+$discard,site=javatpoint.com
+$discard,site=php.net
+$discard,site=python-guide.org
+$discard,site=python.org
+$discard,site=realpython.com
+$discard,site=ruby-doc.org
+$discard,site=rust-lang.org
+$discard,site=swift.org
 
 
 ! DISCARD ALL OTHER RESULTS
