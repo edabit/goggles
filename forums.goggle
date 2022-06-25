@@ -5,11 +5,11 @@
 ! homepage: https://edabit.com
 ! avatar: #2DB84B
 
-*discuss*$boost=4,inurl
-*forum*$boost=4,inurl
-*forums*$boost=4,inurl
-/discuss/$boost=4
-/forum/$boost=4
-/forums/$boost=4
+*discuss*$boost=6,inurl
+*forum*$boost=6,inurl
+*forums*$boost=6,inurl
+/discuss/$boost=6
+/forum/$boost=6
+/forums/$boost=6
 $boost=2,site=reddit.com
 $boost=2,site=stackoverflow.com
