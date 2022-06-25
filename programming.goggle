@@ -5,143 +5,128 @@
 ! homepage: https://edabit.com
 ! avatar: #2DB84B
 
+
 ! Based on Edabit's most commonly submitted resources.
 ! We're experimenting with Goggles and will fine tune as we learn more.
 
 
-! ######################################
-! BOOST LVL 4
-! ######################################
-$boost=4,site=codeburst.io
-$boost=4,site=dev.to
-$boost=4,site=devdocs.io
-$boost=4,site=developer.mozilla.org
-$boost=4,site=flaviocopes.com
+! BOOST
+! ###################################
 $boost=4,site=readthedocs.io
-/tutorials/$boost=4,site=digitalocean.com
-
-
-! ######################################
-! BOOST LVL 3
-! ######################################
-$boost=3,site=allmathtricks.com
-$boost=3,site=beginnersbook.com
-$boost=3,site=byjus.com
-$boost=3,site=codementor.io
-$boost=3,site=codewithchris.com
-$boost=3,site=convertdatatypes.com
-$boost=3,site=cplusplus.com
-$boost=3,site=csharpstar.com
-$boost=3,site=css-tricks.com
-$boost=3,site=csstutorial.net
-$boost=3,site=developpaper.com
-$boost=3,site=docs.microsoft.com
-$boost=3,site=docs.oracle.com
-$boost=3,site=dotnetperls.com
-$boost=3,site=eloquentjavascript.net
-$boost=3,site=fluentcpp.com
-$boost=3,site=hackingwithswift.com
-$boost=3,site=hongkiat.com
-$boost=3,site=howtodoinjava.com
-$boost=3,site=htmldog.com
-$boost=3,site=ibaslogic.com
-$boost=3,site=javabeginnerstutorial.com
-$boost=3,site=javaguides.net
-$boost=3,site=javascript.info
-$boost=3,site=javascripttutorial.net
-$boost=3,site=javatpoint.com
-$boost=3,site=javatpoint.com
-$boost=3,site=journaldev.com
-$boost=3,site=khanacademy.org
-$boost=3,site=learn.shayhowe.com
-$boost=3,site=learnjavascript.online
-$boost=3,site=maths.org
-$boost=3,site=mathsisfun.com
-$boost=3,site=medium.com
-$boost=3,site=mkaz.blog
-$boost=3,site=msdn.microsoft.com
-$boost=3,site=mygreatlearning.com
-$boost=3,site=perlmonks.org
-$boost=3,site=php.net
-$boost=3,site=python-guide.org
-$boost=3,site=python.org
-$boost=3,site=rapidtables.com
-$boost=3,site=reactjs.org
-$boost=3,site=reactnative.dev
-$boost=3,site=realpython.com
-$boost=3,site=rexegg.com
-$boost=3,site=ruby-doc.org
-$boost=3,site=ryanstutorials.net
-$boost=3,site=sanfoundry.com
-$boost=3,site=simplilearn.com
-$boost=3,site=spring.io
-$boost=3,site=stackoverflow.com
-$boost=3,site=study.com
-$boost=3,site=swift.org
-$boost=3,site=towardsdatascience.com
-$boost=3,site=tutorial.techaltum.com
-$boost=3,site=tutorialrepublic.com
-$boost=3,site=unitconverters.net
-$boost=3,site=varsitytutors.com
+$boost=4,site=flaviocopes.com
+$boost=4,site=developer.mozilla.org
+$boost=4,site=devdocs.io
+$boost=4,site=dev.to
+$boost=4,site=codeburst.io
 $boost=3,site=wideskills.com
+$boost=3,site=varsitytutors.com
+$boost=3,site=unitconverters.net
+$boost=3,site=tutorialrepublic.com
+$boost=3,site=tutorial.techaltum.com
+$boost=3,site=towardsdatascience.com
+$boost=3,site=swift.org
+$boost=3,site=study.com
+$boost=3,site=stackoverflow.com
+$boost=3,site=spring.io
+$boost=3,site=simplilearn.com
+$boost=3,site=sanfoundry.com
+$boost=3,site=ryanstutorials.net
+$boost=3,site=rust-lang.org
+$boost=3,site=ruby-doc.org
+$boost=3,site=rexegg.com
+$boost=3,site=realpython.com
+$boost=3,site=reactnative.dev
+$boost=3,site=reactjs.org
+$boost=3,site=rapidtables.com
+$boost=3,site=python.org
+$boost=3,site=python-guide.org
+$boost=3,site=php.net
+$boost=3,site=perlmonks.org
+$boost=3,site=mygreatlearning.com
+$boost=3,site=msdn.microsoft.com
+$boost=3,site=mkaz.blog
+$boost=3,site=medium.com
+$boost=3,site=mathsisfun.com
+$boost=3,site=maths.org
+$boost=3,site=learnjavascript.online
+$boost=3,site=learn.shayhowe.com
+$boost=3,site=khanacademy.org
+$boost=3,site=journaldev.com
+$boost=3,site=javatpoint.com
+$boost=3,site=javatpoint.com
+$boost=3,site=javascripttutorial.net
+$boost=3,site=javascript.info
+$boost=3,site=javaguides.net
+$boost=3,site=javabeginnerstutorial.com
+$boost=3,site=ibaslogic.com
+$boost=3,site=htmldog.com
+$boost=3,site=howtodoinjava.com
+$boost=3,site=hongkiat.com
+$boost=3,site=hackingwithswift.com
+$boost=3,site=fluentcpp.com
+$boost=3,site=eloquentjavascript.net
+$boost=3,site=dotnetperls.com
+$boost=3,site=docs.oracle.com
+$boost=3,site=docs.microsoft.com
+$boost=3,site=developpaper.com
+$boost=3,site=csstutorial.net
+$boost=3,site=css-tricks.com
+$boost=3,site=csharpstar.com
+$boost=3,site=cplusplus.com
+$boost=3,site=convertdatatypes.com
+$boost=3,site=codewithchris.com
+$boost=3,site=codementor.io
+$boost=3,site=byjus.com
+$boost=3,site=beginnersbook.com
+$boost=3,site=allmathtricks.com
+$boost=2,site=discuss.codecademy.com
+$boost=1,site=sitepoint.com
+$boost=1,site=npmjs.com
+$boost=1,site=github.com
+$boost=1,site=freecodecamp.org
+/tutorials/$boost=4,site=digitalocean.com
+/r/WebDev/$boost=2,site=reddit.com
+/r/web_design/$boost=2,site=reddit.com
+/r/shell/$boost=2,site=reddit.com
+/r/rust/$boost=2,site=reddit.com
+/r/redis/$boost=2,site=reddit.com
+/r/Rails/$boost=2,site=reddit.com
+/r/PostgreSQL/$boost=2,site=reddit.com
+/r/PHP/$boost=2,site=reddit.com
+/r/npm/$boost=2,site=reddit.com
+/r/node/$boost=2,site=reddit.com
+/r/mysql/$boost=2,site=reddit.com
+/r/mongodb/$boost=2,site=reddit.com
+/r/linux/$boost=2,site=reddit.com
+/r/learnrust/$boost=2,site=reddit.com
+/r/learnruby/$boost=2,site=reddit.com
+/r/LearnPython/$boost=2,site=reddit.com
+/r/LearnProgramming/$boost=2,site=reddit.com
+/r/LearnJavaScript/$boost=2,site=reddit.com
+/r/learnjava/$boost=2,site=reddit.com
+/r/JavaScript/$boost=2,site=reddit.com
+/r/javahelp/$boost=2,site=reddit.com
+/r/java/$boost=2,site=reddit.com
+/r/html5/$boost=2,site=reddit.com
+/r/haskell/$boost=2,site=reddit.com
+/r/golang/$boost=2,site=reddit.com
+/r/git/$boost=2,site=reddit.com
+/r/Frontend/$boost=2,site=reddit.com
+/r/DatabaseHelp/$boost=2,site=reddit.com
+/r/Database/$boost=2,site=reddit.com
+/r/CSS/$boost=2,site=reddit.com
+/r/cpp/$boost=2,site=reddit.com
+/r/cplusplus/$boost=2,site=reddit.com
+/r/commandline/$boost=2,site=reddit.com
+/r/CodingHelp/$boost=2,site=reddit.com
+/r/Coding/$boost=2,site=reddit.com
+/r/AskProgramming/$boost=2,site=reddit.com
+/r/Algorithms/$boost=2,site=reddit.com
 /questions/$boost=3,site=digitalocean.com
 
 
-! ######################################
-! BOOST LVL 2
-! ######################################
-/r/Algorithms/$boost=2,site=reddit.com
-/r/AskProgramming/$boost=2,site=reddit.com
-/r/Coding/$boost=2,site=reddit.com
-/r/CodingHelp/$boost=2,site=reddit.com
-/r/commandline/$boost=2,site=reddit.com
-/r/cplusplus/$boost=2,site=reddit.com
-/r/cpp/$boost=2,site=reddit.com
-/r/CSS/$boost=2,site=reddit.com
-/r/Database/$boost=2,site=reddit.com
-/r/DatabaseHelp/$boost=2,site=reddit.com
-/r/Frontend/$boost=2,site=reddit.com
-/r/git/$boost=2,site=reddit.com
-/r/golang/$boost=2,site=reddit.com
-/r/haskell/$boost=2,site=reddit.com
-/r/html5/$boost=2,site=reddit.com
-/r/java/$boost=2,site=reddit.com
-/r/javahelp/$boost=2,site=reddit.com
-/r/JavaScript/$boost=2,site=reddit.com
-/r/learnjava/$boost=2,site=reddit.com
-/r/LearnJavaScript/$boost=2,site=reddit.com
-/r/LearnProgramming/$boost=2,site=reddit.com
-/r/LearnPython/$boost=2,site=reddit.com
-/r/learnruby/$boost=2,site=reddit.com
-/r/learnrust/$boost=2,site=reddit.com
-/r/linux/$boost=2,site=reddit.com
-/r/mongodb/$boost=2,site=reddit.com
-/r/mysql/$boost=2,site=reddit.com
-/r/node/$boost=2,site=reddit.com
-/r/npm/$boost=2,site=reddit.com
-/r/PHP/$boost=2,site=reddit.com
-/r/PostgreSQL/$boost=2,site=reddit.com
-/r/Rails/$boost=2,site=reddit.com
-/r/redis/$boost=2,site=reddit.com
-/r/rust/$boost=2,site=reddit.com
-/r/shell/$boost=2,site=reddit.com
-/r/web_design/$boost=2,site=reddit.com
-/r/WebDev/$boost=2,site=reddit.com
-
-
-! ######################################
-! BOOST LVL 1
-! ######################################
-$boost=1,site=freecodecamp.org
-$boost=1,site=github.com
-$boost=1,site=sitepoint.com
-$boost=1,site=npmjs.com
-$boost=1,site=discuss.codecademy.com
-
-
-! ######################################
-! DISCARD SPAM
-! ######################################
+! DISCARD
+! ###################################
 $discard,site=5axxw.com
 $discard,site=alltodev.com
 $discard,site=amuddycup.com
