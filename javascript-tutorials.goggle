@@ -1,12 +1,12 @@
-! name: JavaScript Tutorials
-! description: Boosts sites helpful to learning JavaScript.
+! name: JavaScript
+! description: Boosts sites helpful to JavaScript programmers.
 ! public: true
 ! author: edabit.com
 ! homepage: https://edabit.com
 ! avatar: #2DB84B
 
 
-! QUALITY TUTORIALS
+! Boost quality results.
 ! ###################################
 $boost=4,site=speakingjs.com
 $boost=4,site=learnjavascript.online
@@ -15,9 +15,9 @@ $boost=4,site=javascript.info
 $boost=4,site=exploringjs.com
 $boost=4,site=eloquentjavascript.net
 $boost=3,site=developer.mozilla.org
+$boost=2,site=jsforcats.com
 $boost=2,site=flaviocopes.com
 $boost=2,site=dev.to
-$boost=1,site=jsforcats.com
 /tutorials/javascript-tutorial/$boost=4,site=simplilearn.com
 /tutorials/$boost=2,site=digitalocean.com
 /r/LearnJavaScript/$boost=3,site=reddit.com
@@ -27,21 +27,22 @@ $boost=1,site=jsforcats.com
 /guides/javascript/$boost=4,site=htmldog.com
 
 
-! BOOST RESULTS THAT CONTAIN JAVASCRIPT IN URL
+! Boost results that contain "javascript" in url.
 ! ###################################
 *js*$boost=1,inurl
 *javascript*$boost=1,inurl
-/javascript/$boost=1
 
 
-! DISCARD SPECIFIC SITES
+! Discard irrelivant results.
 ! ###################################
+$discard,site=cplusplus.com
+$discard,site=cppreference.com
 $discard,site=csharpstar.com
+$discard,site=dev.java
 $discard,site=docs.microsoft.com
 $discard,site=docs.oracle.com
 $discard,site=javabeginnerstutorial.com
 $discard,site=javaguides.net
-$discard,site=javatpoint.com
 $discard,site=javatpoint.com
 $discard,site=php.net
 $discard,site=python-guide.org
@@ -50,8 +51,16 @@ $discard,site=realpython.com
 $discard,site=ruby-doc.org
 $discard,site=rust-lang.org
 $discard,site=swift.org
-
-
-! DISCARD ALL OTHER RESULTS
-! ###################################
+*haskell*$discard=1,inurl
+*kotlin*$discard=1,inurl
+*lua*$discard=1,inurl
+*python*$discard=1,inurl
+*python*$discard=1,inurl
+*python*$discard=1,inurl
+*python*$discard=1,inurl
+*python*$discard=1,inurl
+*ruby*$discard=1,inurl
+*rust*$discard=1,inurl
+*scala*$discard=1,inurl
+*swift*$discard=1,inurl
 $discard
