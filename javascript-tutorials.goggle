@@ -1,5 +1,5 @@
 ! name: JavaScript Tutorials
-! description: Boosts sites helpful to programmers and eliminates spam.
+! description: Boosts sites helpful to learning JavaScript.
 ! public: true
 ! author: edabit.com
 ! homepage: https://edabit.com
@@ -8,14 +8,15 @@
 
 ! QUALITY TUTORIALS
 ! ###################################
+$boost=4,site=speakingjs.com
 $boost=4,site=learnjavascript.online
+$boost=4,site=jsforcats.com
 $boost=4,site=javascripttutorial.net
 $boost=4,site=javascript.info
+$boost=4,site=exploringjs.com
 $boost=4,site=eloquentjavascript.net
 $boost=4,site=developer.mozilla.org
-
-
-! ###################################
+/tags/js/$boost=4,site=flaviocopes.com
 /tagged/$boost=4,site=stackoverflow.com
 /t/javascript$boost=4,site=dev.to
 /r/LearnJavaScript/$boost=4,site=reddit.com
