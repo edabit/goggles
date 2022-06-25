@@ -5,5 +5,4 @@
 ! homepage: https://edabit.com
 ! avatar: #2DB84B
 
-*.pdf*$boost=4,inurl
-$discard
+*.pdf*$boost=6,inurl
