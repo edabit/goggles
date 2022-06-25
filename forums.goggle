@@ -1,0 +1,14 @@
+! name: Forums
+! description: Forum search.
+! public: true
+! author: edabit.com
+! homepage: https://edabit.com
+! avatar: #2DB84B
+
+*discuss*$boost=2,inurl
+*forum*$boost=2,inurl
+*forums*$boost=2,inurl
+/discuss/$boost=2
+/forum/$boost=2
+/forums/$boost=2
+$discard
