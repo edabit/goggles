@@ -1,24 +1,36 @@
-! name: Documentation
-! description: Documentation for programmers.
+! name: Dev Docs
+! description: Boosts documentation for programmers and IT professionals.
 ! public: true
 ! author: edabit.com
 ! homepage: https://edabit.com
 ! avatar: #2DB84B
 
-$discard
-$boost=4,site=phpdoc.org
-$boost=4,site=docs.python.org
-$boost=4,site=developer.mozilla.org
-$boost=4,site=developer.apple.com
-$boost=4,site=devdocs.io
-$boost=4,site=cplusplus.com
+! Boost specific sites
+$boost=3,site=w3schools.com
 $boost=3,site=ruby-doc.org
+$boost=3,site=readthedocs.io
+$boost=3,site=programiz.com
+$boost=3,site=phpdoc.org
+$boost=3,site=php.net
+$boost=3,site=npmjs.com
+$boost=3,site=jenkins.io
+$boost=3,site=github.com
+$boost=3,site=geeksforgeeks.org
+$boost=3,site=docs.python.org
 $boost=3,site=docs.oracle.com
 $boost=3,site=docs.microsoft.com
-$boost=2,site=readthedocs.io
-$boost=2,site=programiz.com
-$boost=2,site=php.net
-$boost=2,site=npmjs.com
-$boost=2,site=github.com
-$boost=2,site=geeksforgeeks.org
-$boost=1,site=w3schools.com
+$boost=3,site=docs.docker.com
+$boost=3,site=docs.aws.amazon.com
+$boost=3,site=developer.mozilla.org
+$boost=3,site=developer.apple.com
+$boost=3,site=devdocs.io
+$boost=3,site=cplusplus.com
+
+! Boost results that contain docs in the url.
+/documentation/$boost=2
+/docs/$boost=2
+*documentation*$boost=2,inurl
+*docs*$boost=2,inurl
+
+! Remove results not matching any other rule.
+$discard
