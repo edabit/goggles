@@ -1,0 +1,9 @@
+! name: PDF
+! description: Search only PDF files.
+! public: true
+! author: edabit.com
+! homepage: https://edabit.com
+! avatar: #2DB84B
+
+*.pdf*$boost=4,inurl
+$discard
