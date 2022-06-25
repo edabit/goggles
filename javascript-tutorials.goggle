@@ -29,3 +29,7 @@ $boost=4,site=developer.mozilla.org
 *js*$boost=3,inurl
 *javascript*$boost=3,inurl
 /javascript/$boost=3
+
+
+! ###################################
+$discard
