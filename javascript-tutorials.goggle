@@ -1,5 +1,5 @@
 ! name: JavaScript Tutorials
-! description: Boosts sites helpful to learning JavaScript.
+! description: Boosts sites helpful for learning JavaScript.
 ! public: true
 ! author: edabit.com
 ! homepage: https://edabit.com
@@ -12,15 +12,12 @@ $boost=4,site=speakingjs.com
 $boost=4,site=learnjavascript.online
 $boost=4,site=javascripttutorial.net
 $boost=4,site=javascript.info
-$boost=4,site=guru99.com
 $boost=4,site=exploringjs.com
 $boost=4,site=eloquentjavascript.net
 $boost=4,site=dev.to
 $boost=3,site=jsforcats.com
 $boost=3,site=flaviocopes.com
 $boost=3,site=developer.mozilla.org
-$boost=1,site=w3schools.com
-$boost=1,site=geeksforgeeks.org
 /tutorials/javascript-tutorial/$boost=4,site=simplilearn.com
 /tutorials/$boost=4,site=digitalocean.com
 /t/javascript$boost=4,site=dev.to
