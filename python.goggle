@@ -28,10 +28,11 @@ $boost=2,site=python.org
 *python*$boost=3,site=towardsdatascience.com
 *python*$boost=3,site=simplilearn.com
 *python*$boost=3,site=medium.com
+*python*$boost=3,site=ibaslogic.com
 *python*$boost=3,site=dev.to
-*python*$boost=2,site=guru99.com
 *python*$boost=2,site=digitalocean.com
 *python*$boost=1,site=stackoverflow.com
+*python*$boost=1,site=guru99.com
 *python*$boost=1,site=github.com
 *python*$boost=1,site=geeksforgeeks.org
 *python*$boost=1,site=freecodecamp.org
