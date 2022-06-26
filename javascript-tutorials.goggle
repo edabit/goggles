@@ -9,33 +9,30 @@
 
 ! Boost quality results
 $boost=5,site=eloquentjavascript.net
-$boost=4,site=learnjavascript.online
 $boost=4,site=javascripttutorial.net
 $boost=4,site=javascript.info
-$boost=3,site=speakingjs.com
-$boost=3,site=exploringjs.com
-$boost=2,site=jsforcats.com
+$boost=2,site=discuss.codecademy.com
 $boost=2,site=developer.mozilla.org
-$boost=1,site=discuss.codecademy.com
 /tutorials/javascript-tutorial/$boost=4,site=simplilearn.com
 /tutorials/$boost=2,site=digitalocean.com
 /r/LearnJavaScript/$boost=4,site=reddit.com
 /r/javascript/$boost=2,site=reddit.com
 /js/$boost=1,site=w3schools.com
-/javascript/$boost=3,site=tutorialsteacher.com
+/javascript/$boost=4,site=tutorialsteacher.com
 /javascript/$boost=3,site=programiz.com
 /javascript/$boost=3,site=devdocs.io
 /javascript-tutorial/$boost=3,site=tutorialrepublic.com
 /guides/javascript/$boost=4,site=htmldog.com
 
 
-! Boost results containing "javascript" in url
+! Boost results containing "-js" in url
 *js-*$boost=4,site=flaviocopes.com
 *js-*$boost=4,site=dmitripavlutin.com
 *js-*$boost=3,site=medium.com
 *js-*$boost=3,site=hackernoon.com
 *js-*$boost=3,site=dev.to
 *js-*$boost=3,site=codeburst.io
+*js-*$boost=3,site=30secondsofcode.org
 *js-*$boost=2,site=tutorialspoint.com
 *js-*$boost=2,site=guru99.com
 *js-*$boost=1,site=stackoverflow.com
@@ -44,17 +41,17 @@ $boost=1,site=discuss.codecademy.com
 *js-*$boost=1,site=geeksforgeeks.org
 *js-*$boost=1,site=freecodecamp.org
 *js-*$boost=1,site=digitalocean.com
-*js-*$boost=1,site=30secondsofcode.org
 *js-*$boost=1,inurl
 
 
-! Boost results containing "js-" in url
+! Boost results containing "javascript" in url
 *javascript*$boost=4,site=flaviocopes.com
 *javascript*$boost=4,site=dmitripavlutin.com
 *javascript*$boost=3,site=medium.com
 *javascript*$boost=3,site=hackernoon.com
 *javascript*$boost=3,site=dev.to
 *javascript*$boost=3,site=codeburst.io
+*javascript*$boost=3,site=30secondsofcode.org
 *javascript*$boost=2,site=tutorialspoint.com
 *javascript*$boost=2,site=guru99.com
 *javascript*$boost=1,site=stackoverflow.com
@@ -63,7 +60,6 @@ $boost=1,site=discuss.codecademy.com
 *javascript*$boost=1,site=geeksforgeeks.org
 *javascript*$boost=1,site=freecodecamp.org
 *javascript*$boost=1,site=digitalocean.com
-*javascript*$boost=1,site=30secondsofcode.org
 *javascript*$boost=1,inurl
 
 
