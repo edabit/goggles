@@ -12,6 +12,8 @@ $boost=3,site=hooks.reactivers.com
 $boost=3,site=handsonreact.com
 $boost=3,site=docs.react2025.com
 $boost=2,site=reactnative.dev
+$boost=2,site=react-tutorial.meteor.com
+$boost=2,site=npmjs.com
 /tutorials/$boost=1,site=digitalocean.com
 /reactjs/$boost=3,site=tutorialspoint.com
 /react/$boost=4,site=30secondsofcode.org
