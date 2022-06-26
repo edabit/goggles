@@ -6,19 +6,17 @@
 ! avatar: #2DB84B
 
 
-! Boost quality results.
-! ###################################
-$boost=4,site=speakingjs.com
+! Boost quality results
 $boost=4,site=learnjavascript.online
 $boost=4,site=javascripttutorial.net
 $boost=4,site=javascript.info
 $boost=4,site=exploringjs.com
 $boost=4,site=eloquentjavascript.net
+$boost=3,site=speakingjs.com
 $boost=3,site=developer.mozilla.org
 $boost=2,site=jsforcats.com
-$boost=2,site=flaviocopes.com
-$boost=2,site=dev.to
 /tutorials/javascript-tutorial/$boost=4,site=simplilearn.com
+/tutorials/$boost=2,site=digitalocean.com
 /tutorials/$boost=2,site=digitalocean.com
 /r/LearnJavaScript/$boost=3,site=reddit.com
 /js/$boost=1,site=w3schools.com
@@ -27,16 +25,17 @@ $boost=2,site=dev.to
 /guides/javascript/$boost=4,site=htmldog.com
 
 
-! Boost results that contain "javascript" in url.
-! ###################################
-*js*$boost=1,inurl
+! Boost results containing "javascript" in url
+*javascript*$boost=3,site=guru99.com
+*javascript*$boost=3,site=flaviocopes.com
+*javascript*$boost=2,site=dev.to
+*javascript*$boost=1,site=stackoverflow.com
+*javascript*$boost=1,site=github.com
 *javascript*$boost=1,inurl
 
 
-! Discard irrelivant results.
-! ###################################
+! Remove irrelivant results
 $discard,site=cplusplus.com
-$discard,site=meow.com
 $discard,site=cppreference.com
 $discard,site=csharpstar.com
 $discard,site=dev.java
