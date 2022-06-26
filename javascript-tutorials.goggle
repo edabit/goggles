@@ -55,10 +55,6 @@ $discard,site=swift.org
 *kotlin*$discard,inurl
 *lua*$discard,inurl
 *python*$discard,inurl
-*python*$discard,inurl
-*python*$discard,inurl
-*python*$discard,inurl
-*python*$discard,inurl
 *ruby*$discard,inurl
 *rust*$discard,inurl
 *scala*$discard,inurl
