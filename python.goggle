@@ -9,8 +9,8 @@
 
 ! Boost relevant results
 $boost=4,site=pythontutorial.net
-$boost=3,site=realpython.com
 $boost=3,site=pythonbasics.org
+$boost=2,site=realpython.com
 $boost=2,site=python.org
 /tutorials/$boost=1,site=digitalocean.com
 /r/pythontips/$boost=2,site=reddit.com
@@ -32,7 +32,6 @@ $boost=2,site=python.org
 *python*$boost=2,site=guru99.com
 *python*$boost=2,site=digitalocean.com
 *python*$boost=1,site=stackoverflow.com
-*python*$boost=1,site=sitepoint.com
 *python*$boost=1,site=github.com
 *python*$boost=1,site=geeksforgeeks.org
 *python*$boost=1,site=freecodecamp.org
@@ -40,7 +39,9 @@ $boost=2,site=python.org
 
 
 ! Remove irrelivant results
+$discard,site=udemy.com
 $discard,site=swift.org
+$discard,site=sanet.st
 $discard,site=rust-lang.org
 $discard,site=ruby-doc.org
 $discard,site=learnjavascript.today
@@ -49,6 +50,7 @@ $discard,site=javascripttutorial.net
 $discard,site=javascript.info
 $discard,site=javaguides.net
 $discard,site=javabeginnerstutorial.com
+$discard,site=hackr.io
 $discard,site=eloquentjavascript.net
 $discard,site=docs.oracle.com
 $discard,site=docs.microsoft.com
@@ -57,7 +59,7 @@ $discard,site=dev.java
 $discard,site=csharpstar.com
 $discard,site=cppreference.com
 $discard,site=cplusplus.com
-/lessions/$discard,site=realpython.com
+$discard,site=coursera.org
 *swift*$discard,inurl
 *scala*$discard,inurl
 *rust*$discard,inurl
