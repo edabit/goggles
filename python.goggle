@@ -56,6 +56,7 @@ $discard,site=dev.java
 $discard,site=csharpstar.com
 $discard,site=cppreference.com
 $discard,site=cplusplus.com
+/lession/$discard,site=realpython.com
 *swift*$discard,inurl
 *scala*$discard,inurl
 *rust*$discard,inurl
