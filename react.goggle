@@ -8,7 +8,9 @@
 
 ! Boost quality results
 $boost=3,site=reactjs.org
+$boost=3,site=hooks.reactivers.com
 $boost=3,site=handsonreact.com
+$boost=3,site=docs.react2025.com
 $boost=2,site=reactnative.dev
 /tutorials/$boost=1,site=digitalocean.com
 /reactjs/$boost=3,site=tutorialspoint.com
