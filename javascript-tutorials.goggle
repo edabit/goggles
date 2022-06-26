@@ -30,7 +30,25 @@ $boost=1,site=discuss.codecademy.com
 
 
 ! Boost results containing "javascript" in url
-! *javascript*$boost=4,site=
+*js-*$boost=4,site=flaviocopes.com
+*js-*$boost=4,site=dmitripavlutin.com
+*js-*$boost=3,site=medium.com
+*js-*$boost=3,site=hackernoon.com
+*js-*$boost=3,site=dev.to
+*js-*$boost=3,site=codeburst.io
+*js-*$boost=2,site=tutorialspoint.com
+*js-*$boost=2,site=guru99.com
+*js-*$boost=1,site=stackoverflow.com
+*js-*$boost=1,site=sitepoint.com
+*js-*$boost=1,site=github.com
+*js-*$boost=1,site=geeksforgeeks.org
+*js-*$boost=1,site=freecodecamp.org
+*js-*$boost=1,site=digitalocean.com
+*js-*$boost=1,site=30secondsofcode.org
+*js-*$boost=1,inurl
+
+
+! Boost results containing "js-" in url
 *javascript*$boost=4,site=flaviocopes.com
 *javascript*$boost=4,site=dmitripavlutin.com
 *javascript*$boost=3,site=medium.com
@@ -45,6 +63,7 @@ $boost=1,site=discuss.codecademy.com
 *javascript*$boost=1,site=geeksforgeeks.org
 *javascript*$boost=1,site=freecodecamp.org
 *javascript*$boost=1,site=digitalocean.com
+*javascript*$boost=1,site=30secondsofcode.org
 *javascript*$boost=1,inurl
 
 
