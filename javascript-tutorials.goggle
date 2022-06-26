@@ -37,6 +37,13 @@ $boost=2,site=developer.mozilla.org
 
 
 ! Remove irrelivant results
+$discard,site=enjnfjfn.com
+$discard,site=jenfjrnfkemdk.com
+$discard,site=dfghjk.com
+$discard,site=56789567.com
+$discard,site=22333.com
+
+
 $discard,site=cplusplus.com
 $discard,site=cppreference.com
 $discard,site=csharpstar.com
