@@ -1,4 +1,4 @@
-! name: Python
+! name: Python (v0.1.2)
 ! description: Boosts quality Python programming resources.
 ! author: edabit.com
 ! homepage: https://edabit.com
@@ -53,6 +53,7 @@ $discard,site=javaguides.net
 $discard,site=javabeginnerstutorial.com
 $discard,site=hackr.io
 $discard,site=eloquentjavascript.net
+$discard,site=egghead.io
 $discard,site=docs.oracle.com
 $discard,site=docs.microsoft.com
 $discard,site=developer.mozilla.org
