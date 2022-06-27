@@ -8,22 +8,22 @@
 
 
 ! Boost quality results
-$boost=5,site=eloquentjavascript.net^
-$boost=4,site=javascripttutorial.net^
-$boost=4,site=javascript.info^
-$boost=2,site=discuss.codecademy.com^
-$boost=2,site=developer.mozilla.org^
-/tutorials/javascript-tutorial/$boost=4,site=simplilearn.com^
-/tutorials/$boost=1,site=digitalocean.com^
-/r/LearnJavaScript/$boost=4,site=reddit.com^
-/r/javascript/$boost=2,site=reddit.com^
-/js/$boost=1,site=w3schools.com^
-/javascript/$boost=4,site=tutorialsteacher.com^
-/javascript/$boost=3,site=scaler.com^
-/javascript/$boost=3,site=programiz.com^
-/javascript/$boost=3,site=devdocs.io^
-/javascript-tutorial/$boost=3,site=tutorialrepublic.com^
-/guides/javascript/$boost=4,site=htmldog.com^
+$boost=5,site=eloquentjavascript.net
+$boost=4,site=javascripttutorial.net
+$boost=4,site=javascript.info
+$boost=2,site=discuss.codecademy.com
+$boost=2,site=developer.mozilla.org
+/tutorials/javascript-tutorial/$boost=4,site=simplilearn.com
+/tutorials/$boost=1,site=digitalocean.com
+/r/LearnJavaScript/$boost=4,site=reddit.com
+/r/javascript/$boost=2,site=reddit.com
+/js/$boost=1,site=w3schools.com
+/javascript/$boost=4,site=tutorialsteacher.com
+/javascript/$boost=3,site=scaler.com
+/javascript/$boost=3,site=programiz.com
+/javascript/$boost=3,site=devdocs.io
+/javascript-tutorial/$boost=3,site=tutorialrepublic.com
+/guides/javascript/$boost=4,site=htmldog.com
 *js-*$boost=4,site=flaviocopes.com
 *js-*$boost=4,site=dmitripavlutin.com
 *js-*$boost=4,site=30secondsofcode.org
