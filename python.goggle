@@ -1,10 +1,21 @@
-! name: Python (v0.1.2)
+! name: Python (v0.1.4)
 ! description: Boosts quality Python programming resources.
 ! author: edabit.com
 ! homepage: https://edabit.com
 ! issues: https://github.com/edabit/goggles/issues
 ! avatar: #4675A7
 ! public: true
+
+
+! ##############################################################
+
+! Submit a pull request:
+! https://github.com/edabit/goggles/blob/main/python.goggle
+
+! Join the discussion:
+! https://github.com/edabit/goggles/discussions
+
+! ##############################################################
 
 
 ! Boost relevant results
@@ -21,6 +32,7 @@ $boost=2,site=python.org
 /python/$boost=2,site=tutorialspoint.com
 /python/$boost=1,site=w3schools.com
 /python-programming/$boost=2,site=programiz.com
+*tutorial*$boost=1,inurl
 *python*$boost=5,site=flaviocopes.com
 *python*$boost=4,site=hackernoon.com
 *python*$boost=4,site=codeburst.io
@@ -37,6 +49,8 @@ $boost=2,site=python.org
 *python*$boost=1,site=geeksforgeeks.org
 *python*$boost=1,site=freecodecamp.org
 *python*$boost=1,inurl
+*guide*$boost=1,inurl
+*beginner*$boost=1,inurl
 
 
 ! Remove irrelivant results
