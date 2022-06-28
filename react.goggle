@@ -1,10 +1,21 @@
-! name: React (v0.1.1)
+! name: React (v0.1.3)
 ! description: Boosts quality React programming resources.
 ! author: edabit.com
 ! homepage: https://edabit.com
 ! issues: https://github.com/edabit/goggles/issues
 ! avatar: #60D1FA
 ! public: true
+
+
+! ##############################################################
+
+! Submit a pull request:
+! https://github.com/edabit/goggles/blob/main/javascript.goggle
+
+! Join the discussion:
+! https://github.com/edabit/goggles/discussions
+
+! ##############################################################
 
 
 ! Boost quality results
@@ -21,6 +32,7 @@ $boost=2,site=blog.logrocket.com
 /react/$boost=4,site=30secondsofcode.org
 /REACT/$boost=2,site=w3schools.com
 /r/reactjs/$boost=2,site=reddit.com
+*tutorial*$boost=1,inurl
 *react*$boost=4,site=flaviocopes.com
 *react*$boost=4,site=dmitripavlutin.com
 *react*$boost=3,site=simplilearn.com
@@ -39,6 +51,8 @@ $boost=2,site=blog.logrocket.com
 *react*$boost=1,site=github.com
 *react*$boost=1,site=geeksforgeeks.org
 *react*$boost=1,inurl
+*guide*$boost=1,inurl
+*beginner*$boost=1,inurl
 
 
 ! Remove irrelivant results
