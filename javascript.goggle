@@ -1,11 +1,10 @@
-! name: JavaScript (v0.2.3)
+! name: JavaScript (v0.2.4)
 ! description: Boosts quality JavaScript programming resources.
 ! author: edabit.com
 ! homepage: https://edabit.com
 ! issues: https://github.com/edabit/goggles/issues
 ! avatar: #F5E359
 ! public: true
-
 
 
 ! ##############################################################
@@ -17,7 +16,6 @@
 ! https://github.com/edabit/goggles/discussions
 
 ! ##############################################################
-
 
 
 ! Boost websites
@@ -58,17 +56,20 @@ $boost=2,site=discuss.codecademy.com
 /js/$boost=1,site=w3schools.com
 /tutorials/$boost=1,site=digitalocean.com
 
-! Boost keywords
-*beginner*$boost=1,inurl
+! Boost url keywords
+*tutorial*$boost=3,inurl
+
+*beginner*$boost=2,inurl
+*getting-started*$boost=2,inurl
+*guide*$boost=2,inurl
+*intro*$boost=2,inurl
+
 *cheat-sheet*$boost=1,inurl
+*cheatsheet*$boost=1,inurl
 *example*$boost=1,inurl
-*getting-started*$boost=1,inurl
-*guide*$boost=1,inurl
 *how-to*$boost=1,inurl
-*intro*$boost=1,inurl
 *javascript*$boost=1,inurl
 *learn*$boost=1,inurl
-*tutorial*$boost=1,inurl
 
 
 ! Remove irrelivant results
