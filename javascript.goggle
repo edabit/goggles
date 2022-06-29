@@ -1,10 +1,11 @@
-! name: JavaScript (v0.1.9)
+! name: JavaScript (v0.2.3)
 ! description: Boosts quality JavaScript programming resources.
 ! author: edabit.com
 ! homepage: https://edabit.com
 ! issues: https://github.com/edabit/goggles/issues
 ! avatar: #F5E359
 ! public: true
+
 
 
 ! ##############################################################
@@ -18,46 +19,56 @@
 ! ##############################################################
 
 
-! Boost quality results
+
+! Boost websites
 $boost=5,site=eloquentjavascript.net
-$boost=4,site=javascripttutorial.net
-$boost=4,site=javascript.info
-$boost=2,site=discuss.codecademy.com
-$boost=2,site=developer.mozilla.org
-/tutorials/javascript-tutorial/$boost=4,site=simplilearn.com
-/tutorials/$boost=1,site=digitalocean.com
-/r/LearnJavaScript/$boost=4,site=reddit.com
-/r/javascript/$boost=2,site=reddit.com
-/js/$boost=1,site=w3schools.com
-/javascript/$boost=4,site=tutorialsteacher.com
-/javascript/$boost=3,site=scaler.com
-/javascript/$boost=3,site=programiz.com
-/javascript/$boost=3,site=devdocs.io
-/javascript-tutorial/$boost=3,site=tutorialrepublic.com
-/guides/javascript/$boost=4,site=htmldog.com
-*tutorial*$boost=1,inurl
-*javascript*$boost=4,site=flaviocopes.com
-*javascript*$boost=4,site=dmitripavlutin.com
+
 *javascript*$boost=4,site=30secondsofcode.org
-*javascript*$boost=3,site=medium.com
-*javascript*$boost=3,site=ibaslogic.com
-*javascript*$boost=3,site=hackernoon.com
-*javascript*$boost=3,site=digitalocean.com
-*javascript*$boost=3,site=dev.to
+*javascript*$boost=4,site=dmitripavlutin.com
+*javascript*$boost=4,site=flaviocopes.com
+/guides/javascript/$boost=4,site=htmldog.com
+/javascript/$boost=4,site=tutorialsteacher.com
+/r/LearnJavaScript/$boost=4,site=reddit.com
+/tutorials/javascript-tutorial/$boost=4,site=simplilearn.com
+$boost=4,site=javascript.info
+$boost=4,site=javascripttutorial.net
+
+$boost=3,site=sachagreif.com
 *javascript*$boost=3,site=codeburst.io
+*javascript*$boost=3,site=dev.to
+*javascript*$boost=3,site=digitalocean.com
+*javascript*$boost=3,site=hackernoon.com
+*javascript*$boost=3,site=ibaslogic.com
+*javascript*$boost=3,site=medium.com
+/javascript-tutorial/$boost=3,site=tutorialrepublic.com
+/javascript/$boost=3,site=devdocs.io
+/javascript/$boost=3,site=programiz.com
+/javascript/$boost=3,site=scaler.com
+
 *javascript*$boost=2,site=tutorialspoint.com
-*javascript*$boost=1,site=stackoverflow.com
-*javascript*$boost=1,site=guru99.com
-*javascript*$boost=1,site=github.com
-*javascript*$boost=1,site=geeksforgeeks.org
+/r/javascript/$boost=2,site=reddit.com
+$boost=2,site=developer.mozilla.org
+$boost=2,site=discuss.codecademy.com
+
 *javascript*$boost=1,site=freecodecamp.org
-*javascript*$boost=1,inurl
-*introduction*$boost=1,inurl
-*how-to*$boost=1,inurl
-*guide*$boost=1,inurl
-*example*$boost=1,inurl
-*cheat-sheet*$boost=1,inurl
+*javascript*$boost=1,site=geeksforgeeks.org
+*javascript*$boost=1,site=github.com
+*javascript*$boost=1,site=guru99.com
+*javascript*$boost=1,site=stackoverflow.com
+/js/$boost=1,site=w3schools.com
+/tutorials/$boost=1,site=digitalocean.com
+
+! Boost keywords
 *beginner*$boost=1,inurl
+*cheat-sheet*$boost=1,inurl
+*example*$boost=1,inurl
+*getting-started*$boost=1,inurl
+*guide*$boost=1,inurl
+*how-to*$boost=1,inurl
+*intro*$boost=1,inurl
+*javascript*$boost,inurl
+*learn*$boost=1,inurl
+*tutorial*$boost=1,inurl
 
 
 ! Remove irrelivant results
@@ -69,6 +80,7 @@ $discard,site=realpython.com
 $discard,site=python.org
 $discard,site=python-guide.org
 $discard,site=php.net
+$discard,site=merriam-webster.com
 $discard,site=learnjavascript.today
 $discard,site=learnjavascript.online
 $discard,site=javatpoint.com
@@ -83,6 +95,11 @@ $discard,site=csharpstar.com
 $discard,site=cppreference.com
 $discard,site=cplusplus.com
 $discard,site=coursera.org
+$discard,site=otosection.com
+/java/$discard,inurl
+/java-tutorial/$discard,inurl
+/cplusplus/$discard,inurl
+*cpp*$discard,inurl
 *swift*$discard,inurl
 *scala*$discard,inurl
 *rust*$discard,inurl
