@@ -47,6 +47,7 @@ $boost=4,site=techtutorialsx.com
 /tutorials/$boost=3,site=digitalocean.com
 /tutorials/javascript-tutorial/$boost=3,site=simplilearn.com
 $boost=3,site=developer.mozilla.org
+$boost=3,site=masteringjs.io
 $boost=3,site=sachagreif.com
 
 *javascript*$boost=2,site=tutorialspoint.com
@@ -64,19 +65,15 @@ $boost=2,site=discuss.codecademy.com
 ! Boost url keywords
 ! ##############################################################
 
-*tutorial*$boost=3,inurl
-
-*beginner*$boost=2,inurl
-*getting-started*$boost=2,inurl
-*guide*$boost=2,inurl
-*how-to*$boost=2,inurl
-*intro*$boost=2,inurl
-
+*beginner*$boost=1,inurl
 *cheat-sheet*$boost=1,inurl
 *cheatsheet*$boost=1,inurl
-*example*$boost=1,inurl
+*getting-started*$boost=1,inurl
+*guide*$boost=1,inurl
+*how-to*$boost=1,inurl
+*intro*$boost=1,inurl
 *javascript*$boost=1,inurl
-*learn*$boost=1,inurl
+*tutorial*$boost=1,inurl
 
 
 ! Remove irrelivant results
@@ -93,10 +90,12 @@ $boost=2,site=discuss.codecademy.com
 *lua*$discard,inurl
 *php*$discard,inurl
 *python*$discard,inurl
+*rails*$discard,inurl
 *ruby*$discard,inurl
 *rust*$discard,inurl
 *scala*$discard,inurl
 *swift*$discard,inurl
+*vba*$discard,inurl
 /cprogramming/$discard,inurl
 /java-tutorial/$discard,inurl
 /java/$discard,inurl
@@ -121,6 +120,7 @@ $discard,site=otosection.com
 $discard,site=php.net
 $discard,site=python-guide.org
 $discard,site=python.org
+$discard,site=pytorch.org
 $discard,site=realpython.com
 $discard,site=ruby-doc.org
 $discard,site=rust-lang.org
