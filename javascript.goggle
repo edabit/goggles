@@ -1,4 +1,4 @@
-! name: JavaScript (v0.2.5)
+! name: JavaScript (v0.2.6)
 ! description: Boosts quality JavaScript programming resources.
 ! author: edabit.com
 ! homepage: https://edabit.com
@@ -20,9 +20,9 @@
 
 
 
+
 ! Boost websites
 ! ##############################################################
-$boost=5,site=eloquentjavascript.net
 
 *javascript*$boost=4,site=30secondsofcode.org
 *javascript*$boost=4,site=dmitripavlutin.com
@@ -30,9 +30,10 @@ $boost=5,site=eloquentjavascript.net
 /guides/javascript/$boost=4,site=htmldog.com
 /javascript/$boost=4,site=tutorialsteacher.com
 /r/LearnJavaScript/$boost=4,site=reddit.com
-/tutorials/javascript-tutorial/$boost=4,site=simplilearn.com
+$boost=4,site=eloquentjavascript.net
 $boost=4,site=javascript.info
 $boost=4,site=javascripttutorial.net
+$boost=4,site=techtutorialsx.com
 
 *javascript*$boost=3,site=codeburst.io
 *javascript*$boost=3,site=dev.to
@@ -44,11 +45,12 @@ $boost=4,site=javascripttutorial.net
 /javascript/$boost=3,site=programiz.com
 /javascript/$boost=3,site=scaler.com
 /tutorials/$boost=3,site=digitalocean.com
+/tutorials/javascript-tutorial/$boost=3,site=simplilearn.com
+$boost=3,site=developer.mozilla.org
 $boost=3,site=sachagreif.com
 
 *javascript*$boost=2,site=tutorialspoint.com
 /r/javascript/$boost=2,site=reddit.com
-$boost=2,site=developer.mozilla.org
 $boost=2,site=discuss.codecademy.com
 
 *javascript*$boost=1,site=freecodecamp.org
@@ -58,8 +60,10 @@ $boost=2,site=discuss.codecademy.com
 *javascript*$boost=1,site=stackoverflow.com
 /js/$boost=1,site=w3schools.com
 
+
 ! Boost url keywords
 ! ##############################################################
+
 *tutorial*$boost=3,inurl
 
 *beginner*$boost=2,inurl
@@ -77,46 +81,57 @@ $boost=2,site=discuss.codecademy.com
 
 ! Remove irrelivant results
 ! ##############################################################
-$discard,site=udemy.com
-$discard,site=swift.org
-$discard,site=rust-lang.org
-$discard,site=ruby-doc.org
-$discard,site=realpython.com
-$discard,site=python.org
-$discard,site=python-guide.org
-$discard,site=php.net
-$discard,site=merriam-webster.com
-$discard,site=learnjavascript.today
-$discard,site=learnjavascript.online
-$discard,site=javatpoint.com
-$discard,site=javaguides.net
-$discard,site=javabeginnerstutorial.com
-$discard,site=hackr.io
-$discard,site=egghead.io
-$discard,site=docs.oracle.com
-$discard,site=docs.microsoft.com
-$discard,site=dev.java
-$discard,site=csharpstar.com
-$discard,site=cppreference.com
-$discard,site=cplusplus.com
-$discard,site=coursera.org
-$discard,site=otosection.com
-/java/$discard,inurl
-/java-tutorial/$discard,inurl
-/cplusplus/$discard,inurl
+
+*-java*$discard,inurl
+*cplusplus*$discard,inurl
 *cpp*$discard,inurl
-*swift*$discard,inurl
-*scala*$discard,inurl
-*rust*$discard,inurl
-*ruby*$discard,inurl
-*python*$discard,inurl
-*lua*$discard,inurl
-*kotlin*$discard,inurl
+*csharp*$discard,inurl
+*golang*$discard,inurl
 *haskell*$discard,inurl
+*java-*$discard,inurl
+*kotlin*$discard,inurl
+*lua*$discard,inurl
+*php*$discard,inurl
+*python*$discard,inurl
+*ruby*$discard,inurl
+*rust*$discard,inurl
+*scala*$discard,inurl
+*swift*$discard,inurl
+/cprogramming/$discard,inurl
+/java-tutorial/$discard,inurl
+/java/$discard,inurl
+/r/ProgrammerHumor/$discard,inurl
+$discard,site=ansible.com
+$discard,site=coursera.org
+$discard,site=cplusplus.com
+$discard,site=cppreference.com
+$discard,site=csharpstar.com
+$discard,site=dev.java
+$discard,site=docs.microsoft.com
+$discard,site=docs.oracle.com
+$discard,site=egghead.io
+$discard,site=hackr.io
+$discard,site=javabeginnerstutorial.com
+$discard,site=javaguides.net
+$discard,site=javatpoint.com
+$discard,site=learnjavascript.online
+$discard,site=learnjavascript.today
+$discard,site=merriam-webster.com
+$discard,site=otosection.com
+$discard,site=php.net
+$discard,site=python-guide.org
+$discard,site=python.org
+$discard,site=realpython.com
+$discard,site=ruby-doc.org
+$discard,site=rust-lang.org
+$discard,site=swift.org
+$discard,site=tobiipro.com
+$discard,site=udemy.com
 
 
 ! Remove spam
 ! ##############################################################
+
 $discard,site=5axxw.com
 $discard,site=alltodev.com
 $discard,site=amuddycup.com
@@ -331,4 +346,5 @@ $discard,site=zsharp.org
 
 ! Remove everything else
 ! ##############################################################
+
 $discard
