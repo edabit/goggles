@@ -1,4 +1,4 @@
-! name: JavaScript (v0.2.6)
+! name: JavaScript (v0.2.7)
 ! description: Boosts quality JavaScript programming resources.
 ! author: edabit.com
 ! homepage: https://edabit.com
@@ -23,13 +23,13 @@
 
 ! Boost websites
 ! ##############################################################
-
 *javascript*$boost=4,site=30secondsofcode.org
 *javascript*$boost=4,site=dmitripavlutin.com
 *javascript*$boost=4,site=flaviocopes.com
 /guides/javascript/$boost=4,site=htmldog.com
 /javascript/$boost=4,site=tutorialsteacher.com
 /r/LearnJavaScript/$boost=4,site=reddit.com
+$boost=3,site=developer.mozilla.org
 $boost=4,site=eloquentjavascript.net
 $boost=4,site=javascript.info
 $boost=4,site=javascripttutorial.net
@@ -44,9 +44,10 @@ $boost=4,site=techtutorialsx.com
 /javascript/$boost=3,site=devdocs.io
 /javascript/$boost=3,site=programiz.com
 /javascript/$boost=3,site=scaler.com
+/r/functionalprogramming^*javascript*$boost=3,site=reddit.com
+/r/programming^*javascript*$boost=3,site=reddit.com
 /tutorials/$boost=3,site=digitalocean.com
 /tutorials/javascript-tutorial/$boost=3,site=simplilearn.com
-$boost=3,site=developer.mozilla.org
 $boost=3,site=masteringjs.io
 $boost=3,site=sachagreif.com
 
@@ -55,7 +56,6 @@ $boost=3,site=sachagreif.com
 $boost=2,site=discuss.codecademy.com
 
 *javascript*$boost=1,site=freecodecamp.org
-*javascript*$boost=1,site=geeksforgeeks.org
 *javascript*$boost=1,site=github.com
 *javascript*$boost=1,site=guru99.com
 *javascript*$boost=1,site=stackoverflow.com
@@ -64,7 +64,6 @@ $boost=2,site=discuss.codecademy.com
 
 ! Boost url keywords
 ! ##############################################################
-
 *beginner*$boost=1,inurl
 *cheat-sheet*$boost=1,inurl
 *cheatsheet*$boost=1,inurl
@@ -78,8 +77,10 @@ $boost=2,site=discuss.codecademy.com
 
 ! Remove irrelivant results
 ! ##############################################################
-
 *-java*$discard,inurl
+*/c-*$discard,inurl
+*c-tutorial*$discard,inurl
+*clojure*$discard,inurl
 *cplusplus*$discard,inurl
 *cpp*$discard,inurl
 *csharp*$discard,inurl
@@ -101,6 +102,8 @@ $boost=2,site=discuss.codecademy.com
 /java/$discard,inurl
 /r/ProgrammerHumor/$discard,inurl
 $discard,site=ansible.com
+$discard,site=bbc.co.uk
+$discard,site=codingame.com
 $discard,site=coursera.org
 $discard,site=cplusplus.com
 $discard,site=cppreference.com
@@ -110,6 +113,7 @@ $discard,site=docs.microsoft.com
 $discard,site=docs.oracle.com
 $discard,site=egghead.io
 $discard,site=hackr.io
+$discard,site=interviewbit.com
 $discard,site=javabeginnerstutorial.com
 $discard,site=javaguides.net
 $discard,site=javatpoint.com
@@ -131,7 +135,6 @@ $discard,site=udemy.com
 
 ! Remove spam
 ! ##############################################################
-
 $discard,site=5axxw.com
 $discard,site=alltodev.com
 $discard,site=amuddycup.com
